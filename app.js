@@ -8,6 +8,8 @@ console. log("proof of life");
 let username = "Bananas";
 console.log(username);
 
-prompt("And you are?");
+function whoAreYou(){
+    prompt("And you are?");
+    document.write(myName)    
+} 
 
-document.write(myName)
